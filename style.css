@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Rubik', sans-serif;
+}
+.bg{
+   width: 100%;
+   height: 655px;
+   background-color: rgba(106, 211, 2, 0.938);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+h2{
+   font-size: 50px;
+   color: white;
+   margin-bottom: 50px;
+   font-family:'Rubik Wet Paint', cursive;
+   font-weight: 100;
+}
+.names{
+   width: 600px;
+   height: 150px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   
+}
+#player1,#player2{
+   height: 40px;
+   width: 40%;
+   border: none;
+   border-radius: 40px;
+   outline: none;
+   padding-left: 10px;
+   box-shadow: rgb(8, 70, 0) -2px 8px 14px;
+   text-transform: capitalize;
+   font-size: 16px;
+}
+#getStarted{
+   width: 300px;
+   height: 40px;
+   border-radius: 40px;
+   border: none;
+   margin-left: 150px;
+   box-shadow: rgb(12, 99, 1) -2px 8px 14px;
+   font-size: 18px;
+   text-transform: uppercase;
+   color: rgb(71, 141, 1);
+   background-color: #fff;
+   cursor: pointer;
+   transition: .3s;
+}
+.getStarted:hover{
+   color: white;
+   background-color:rgb(12, 105, 0) ;
+}
+.gameStarted{
+   width: 100%;
+   height: 800px;
+   background-color: rgba(106, 211, 2, 0.938);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+.interfaces{
+   width: 100%;
+   height: 500px;
+   display: flex;
+   justify-content: space-around;
+}
+.interfaceForPlayer1,.interfaceForPlayer2{
+   width: 500px;
+   height: 480px;
+   border-radius: 20px;
+   box-shadow: rgb(8, 70, 0) 0px 0px 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.buttons{
+   width: 400px;
+   height: 200px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+}
+#start,#reset{
+   width: 250px;
+   height: 50px;
+   border-radius: 30px;
+   border: none;
+   font-size: 20px;
+   color:rgb(8, 70, 0);
+   cursor: pointer;
+   box-shadow: rgb(8, 70, 0) 0px 0px 20px;
+   transition: .3s;
+}
+#start:hover{
+   color: white;
+   background-color:rgb(12, 105, 0);
+}
+#reset:hover{
+   color: white;
+   background-color:rgb(12, 105, 0);
+}
+#player1Name,#player2Name{
+   width: 150px;
+   height: 60px;
+   border-radius: 30px;
+   box-shadow: rgb(8, 70, 0) 0px 0px 20px;
+   text-transform:capitalize;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+   color: white;
+}
+#scorePlayer1,#scorePlayer2{
+   width: 50px;
+   height: 50px;
+   box-shadow: rgb(8, 70, 0) 0px 0px 20px;
+   border-radius: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+   color: white;
+}
+#randomNumberPlayer1,#randomNumberPlayer2{
+   width: 200px;
+   height: 80px;
+   box-shadow: rgb(8, 70, 0) 0px 0px 20px;
+   border-radius: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+   color: white;
+}

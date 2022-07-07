@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Document</title>
+</head>
+
+<body>
+   <section class="bg">
+      <h2>Enter Players' Names</h2>
+      <div class="names">
+         <input type="text" id="player1" placeholder="PLAYER 1">
+         <input type="text" id="player2" placeholder="PLAYER 2">
+         <button id="getStarted">Get started!</button>
+      </div>
+   </section>
+   <section class="gameStarted">
+      <div class="interfaces">
+
+         <div class="interfaceForPlayer1">
+            <div id="player1Name"></div>
+            <div id="scorePlayer1"></div>
+            <div id="randomNumberPlayer1"></div>
+         </div>
+
+         <div class="interfaceForPlayer2">
+            <div id="player2Name"></div>
+            <div id="scorePlayer2"></div>
+            <div id="randomNumberPlayer2"></div>
+         </div>
+
+      </div>
+      <div class="buttons">
+         <button id="start">START</button>
+         <button id="reset">RESET</button>
+
+      </div>
+   </section>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
